@@ -1,4 +1,4 @@
-
+[![CI](https://github.com/nogibjj/Gavin_Li_Week11_Mini_Project/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Gavin_Li_Week11_Mini_Project/actions/workflows/cicd.yml)
 # IDS 706 Data Engineering Week 11 Mini Project
 Gavin Li `gl183`
 
@@ -17,7 +17,7 @@ The purpose of this project is to build an ETL data pipeline to process at least
 
   Loaded the transformed data set into a delta lake table.
 
-I also made an automation to run the ETL workflow automatically, and here is the result of the workflow.
+I also made an automation to run the ETL workflow automatically on databricks, and here is the result of the workflow.
 
 ![rslt_workflow](./resources/rslt_workflow.png)
 
