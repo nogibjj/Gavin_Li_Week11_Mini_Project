@@ -15,7 +15,7 @@ The purpose of this project is to build an ETL data pipeline to process at least
   Dropped unnecessary columns, leaving only the variables that are useful to later analysis (e.g., `Survived`, `Sex`, `Pclass`)
 - [L]oad
 
-  Loaded the transformed data set into a delta lake table.
+  Loaded the transformed data set into a delta lake table as a __data sink__.
 
 I also made an automation to run the ETL workflow automatically on databricks, and here is the result of the workflow.
 
