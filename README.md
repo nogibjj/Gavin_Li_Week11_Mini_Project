@@ -1,37 +1,30 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
-## Template for Python projects with RUFF linter
 
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
+# IDS 706 Data Engineering Individual Project 3
+Gavin Li `gl183`
 
+## Purpose of the project
+The purpose of this project is to build a ETL data pipeline on Databricks, and automate the workflow on the platform.
 
+## Video explanation
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+## ETL data pipeline
 
-Things included are:
+- [E]xtract
 
-* `Makefile`
+  from online source, request, store in databrick file system (`dbfs:/` protocol)
+- [T]ransform
 
-* `Pytest`
+  Drop columns
+- [L]oad
 
-* `pandas`
+  load into delta lake
 
-* `Ruff`:  
+## Insight, Data visualization, Conclusion
 
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
+## Databricks Workflow
 
-* `Dockerfile`
+- Automated trigger
 
-* `GitHub copilot`
+## Result of `make format`, `make lint`, `make test`
 
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions`
-
-## References
-
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
-
-
-
+## Reference
