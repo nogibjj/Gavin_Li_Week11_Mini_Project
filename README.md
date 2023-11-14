@@ -1,30 +1,30 @@
 
-# IDS 706 Data Engineering Individual Project 3
+# IDS 706 Data Engineering Week 11 Mini Project
 Gavin Li `gl183`
 
 ## Purpose of the project
-The purpose of this project is to build a ETL data pipeline on Databricks, and automate the workflow on the platform.
-
-## Video explanation
+The purpose of this project is to build an ETL data pipeline to process at least one data source on Databricks, and make use of a data sink.
 
 ## ETL data pipeline
 
 - [E]xtract
 
-  from online source, request, store in databrick file system (`dbfs:/` protocol)
+  Retrived the data from the data source using python `requests` package, then stored the data in databricks using the `dbfs` protocol as a `.csv` file.
 - [T]ransform
 
-  Drop columns
+  Dropped unnecessary columns, leaving only the variables that are useful to later analysis (e.g., `Survived`, `Sex`, `Pclass`)
 - [L]oad
 
-  load into delta lake
+  Loaded the transformed data set into a delta lake table.
 
-## Insight, Data visualization, Conclusion
+I also made an automation to run the ETL workflow automatically, and here is the result of the workflow.
 
-## Databricks Workflow
-
-- Automated trigger
+![rslt_workflow](./resources/rslt_workflow.png)
 
 ## Result of `make format`, `make lint`, `make test`
 
+![rslt_make](./resources/rslt_make.png)
+
 ## Reference
+
+[Professor Noah's ruff template](https://github.com/nogibjj/python-ruff-template)
